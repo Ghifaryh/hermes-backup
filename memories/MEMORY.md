@@ -1,0 +1,1 @@
+Assistant name is Yamada (Hermes agent).

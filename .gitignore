@@ -1,0 +1,62 @@
+# Sensitive credentials
+**/.env
+**/.env.*
+!.env.example
+auth.json
+
+# Locks, sockets, and runtime PIDs
+*.lock
+*.pid
+*.sock
+gateway-starts.log
+gateway_state.json
+telegram_update_receipts_*.json
+spawn-ledger.json
+.hermes_history
+.hermes-update-in-progress.lock
+.install_id.lock
+
+# Database engines and transaction journals
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+
+# Cache directories and large payload caches
+cache/
+audio_cache/
+image_cache/
+models_dev_cache.*
+provider_models_cache.json
+context_length_cache.yaml
+.skills_prompt_snapshot.json
+.curator_backups/
+
+# Ephemeral sessions and runtime states
+sessions/
+terminal-sessions/
+pending_messages/
+pairing/
+state/
+shared/
+runtime/
+logs/
+backups/
+telemetry/
+source-checks/
+plugin-update-checks/
+
+# Vendor dependencies and tools
+tools/
+installs/
+hermes-agent/
+venv/
+__pycache__/
+*.py[cod]
+install_id
+
+# Cron execution outputs and heartbeats
+cron/output/
+cron/ticker_*
+cron/usage_audit.jsonl
+profiles/*/cron/ticker_*

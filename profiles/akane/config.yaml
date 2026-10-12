@@ -1,0 +1,22 @@
+model:
+  default: hermes-agent
+  provider: custom
+  base_url: http://localhost:20128/v1
+  api_key: ${HERMES_CUSTOM_LOCALHOST_20128_API_KEY}
+_config_version: 50
+platforms:
+  telegram:
+    allowed_topics:
+      - 6
+    enabled: true
+    home_channel:
+      platform: telegram
+      chat_id: '-1004311275345'
+      name: Gip Workstaion
+      thread_id: '6'
+      user_id: '5661953584'
+telemetry:
+  shared_metrics:
+    enabled: false
+    send: false
+    offer_version: 2

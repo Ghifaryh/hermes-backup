@@ -1,0 +1,10 @@
+{
+  "name": "daily_vps_digest",
+  "schedule": "0 8 * * *",
+  "prompt": "Run a system health check: 1) `free -h` and `df -h` for memory and disk usage. 2) Check Docker containers using `docker ps -a --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'`. Specifically confirm if the Portainer container is healthy and running, and flag any containers that are stopped or restarting. 3) Summarize the findings in a concise, structured status report with green/yellow/red indicators.",
+  "delivery": {
+    "platform": "telegram",
+    "chat_id": "-1004311275345",
+    "thread_id": 8
+  }
+}
