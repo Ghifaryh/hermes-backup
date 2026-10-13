@@ -1,0 +1,1 @@
+Prefers concise status reports and proactive resource/health triage. Manages self-hosted homelab and work infrastructure (Tailscale, Docker, GitLab runners, Armbian STBs). Expects confirmation before persistent modifications or deletions.

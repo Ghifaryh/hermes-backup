@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T14:00:40.441073",
+  "updated_at": "2026-10-14T07:33:34.226190",
   "platforms": {
     "telegram": [
       {
@@ -9,16 +9,22 @@
         "thread_id": "2"
       },
       {
-        "id": "-1004311275345:1",
-        "name": "Gip Workstaion / topic 1",
-        "type": "group",
-        "thread_id": "1"
-      },
-      {
         "id": "5661953584",
         "name": "Ghifaryh",
         "type": "dm",
         "thread_id": null
+      },
+      {
+        "id": "-1004311275345:8",
+        "name": "Gip Workstaion / topic 8",
+        "type": "group",
+        "thread_id": "8"
+      },
+      {
+        "id": "-1004311275345:1",
+        "name": "Gip Workstaion / topic 1",
+        "type": "group",
+        "thread_id": "1"
       }
     ]
   }

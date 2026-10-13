@@ -1,0 +1,62 @@
+{
+  "jobs": [
+    {
+      "id": "66f9afbe0a5d",
+      "name": "tailscale-wrk-aio-monitor",
+      "prompt": "Check tailscale peer status",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "check_wrk_aio.sh",
+      "no_agent": true,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 5,
+        "display": "every 5m"
+      },
+      "schedule_display": "every 5m",
+      "repeat": {
+        "times": null,
+        "completed": 412
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-10-12T14:21:57.118286+08:00",
+      "next_run_at": "2026-10-14T07:38:10.987248+08:00",
+      "last_run_at": "2026-10-14T07:33:10.987248+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "last_failure": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1004311275345",
+        "chat_name": "Gip Workstaion",
+        "thread_id": "6",
+        "user_id": "5661953584",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-14T07:32:11.002094+08:00",
+        "dispatched_at": "2026-10-14T07:33:09.619086+08:00",
+        "lateness_seconds": 58.6,
+        "kind": "on_time"
+      },
+      "fire_claim": null
+    }
+  ],
+  "updated_at": "2026-10-14T07:33:10.988420+08:00"
+}
